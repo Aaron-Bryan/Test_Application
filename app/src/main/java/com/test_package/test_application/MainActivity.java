@@ -29,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         String user_input_name = test_name.getText().toString();
         String user_input_surname = test_surname.getText().toString();
         String user_input_email = test_email.getText().toString();
-        String user_input_password = test_password.getText().toString();
 
         test_output_name.setText("First Name: " + user_input_name);
         test_output_surname.setText("Surname: " + user_input_surname);
