@@ -17,14 +17,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void test_button_func (View view){
 
-        /*
-        TextView test_txt = findViewById(R.id.test_txtview);
-        EditText test_edit_text = findViewById(R.id.test_edit_text);
-        String user_input = test_edit_text.getText().toString();
-
-        test_txt.setText("U Gae " + user_input);
-        */
-
         EditText test_name = findViewById(R.id.test_name);
         EditText test_surname = findViewById(R.id.test_surname);
         EditText test_email = findViewById(R.id.test_email);
@@ -33,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
         TextView test_output_name = findViewById(R.id.test_output_name);
         TextView test_output_surname = findViewById(R.id.test_output_surname);
         TextView test_output_email = findViewById(R.id.test_output_email);
-        TextView test_output_password = findViewById(R.id.test_output_password);
 
         String user_input_name = test_name.getText().toString();
         String user_input_surname = test_surname.getText().toString();
@@ -43,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
         test_output_name.setText("First Name: " + user_input_name);
         test_output_surname.setText("Surname: " + user_input_surname);
         test_output_email.setText("Email: " + user_input_email);
-        test_output_password.setText("Password: " + user_input_password);
 
     }
 
