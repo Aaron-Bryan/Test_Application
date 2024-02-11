@@ -9,7 +9,6 @@ import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
 
-    //Testing something
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
