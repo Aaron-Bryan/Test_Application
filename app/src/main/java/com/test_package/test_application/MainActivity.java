@@ -2,11 +2,14 @@ package com.test_package.test_application;
 
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.CompoundButton;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.view.View;
 
 public class MainActivity extends AppCompatActivity {
+
+    //Testing something
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
+
 
     public void test_button_func (View view){
 
